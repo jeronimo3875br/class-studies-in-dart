@@ -33,7 +33,7 @@ class People extends Car {
     print(
         "$name tem uma ${super.name} ${super.color} avaliada em ${super.price}");
   }
-
+  
   @override
   String paintCar(String color) {
     return "$name a pintura do seu carro para ${super.paintCar(color)} foi concluida!";
